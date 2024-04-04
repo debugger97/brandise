@@ -1,18 +1,16 @@
 import "./App.css"
+import Archeive from "./components/achieve"
+import MeetFounder from "./components/meetFounder"
 
 function App() {
   return (
     <>
-      <div className="container mx-auto px-[17px] lg:px-0 ">
-        <div className="flex flex-col-reverse lg:flex-row ">
-          <div className="w-full ">
-            <img
-              src="/Logo.svg"
-              alt=""
-              className="hidden lg:block mt-[41px] w-[137px] h-[80px]"
-            />
-            <div className=" mt-[120.9px] lg:mt-[225px] max-w-3xl">
-              <h1 className=" font-playfair text-[35px] lg:text-[80px] mb-[33px] font-bold text-[#4b4334] px-[18px] lg:px-0 ">
+      <div className="container mx-auto px-[170]">
+        <div className="flex">
+          <div className="w-full">
+            <img src="/Logo.webp" alt="" className="mt-[41px]" />
+            <div className="mt-[225px] max-w-3xl">
+              <h1 className=" font-playfair text-[80px] mb-[33px] font-bold text-[#4b4334] ">
                 How to attract your dream partner
               </h1>
               <p className="text-[21px] lg:text-[27px] text-[#7e7666] font-oxygen px-[18px] lg:px-0">
@@ -100,17 +98,10 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="lg:hidden">
-            <div className="justify-center pt-[38px] flex items-center">
-              <img src="/ArrowLeft.svg" alt="" />
-              <div className="w-[10px] h-[10px] rounded-full inline-block bg-[#e0d3c2] ml-[34px]"></div>
-              <div className="w-[10px] h-[10px] ml-[34px]  rounded-full inline-block bg-[#A59B8A] opacity-90"></div>
-              <div className="w-[10px] h-[10px]  bg-[#A59B8A]  rounded-full mx-[34px] inline-block opacity-80"></div>
-              <img src="/ArrowRight.svg" alt="" />
-            </div>
-          </div>
         </div>
       </div>
+      <Archeive />
+      <MeetFounder />
       {/* power of love */}
     </>
   )
