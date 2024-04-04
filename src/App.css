@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Bg.webp");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.button {
+  @apply h-[71px] bg-[#cb6f56] px-[54px] flex items-center justify-center rounded-[35.5px] text-[24px] text-white font-oxygen;
+}
+.imgshape {
+  width: 753.9px;
+  height: 1027.7px;
+  opacity: 0.13;
+  border-radius: 0 0 377px 377px;
+  background-color: #cb6f56;
+  position: relative;
+}
