@@ -1,10 +1,12 @@
 import "./App.css"
+import Archeive from "./components/achieve"
+import MeetFounder from "./components/meetFounder"
 
 function App() {
   return (
     <>
       <div className="container mx-auto px-[170]">
-        <div className="flex">
+         {/* <div className="flex">
           <div className="w-full">
             <img src="/Logo.webp" alt="" className="mt-[41px]" />
             <div className="mt-[225px] max-w-3xl">
@@ -28,7 +30,9 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div>  */}
+        <Archeive />
+        <MeetFounder/>
       </div>
     </>
   )
