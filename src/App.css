@@ -6,13 +6,25 @@ body {
   background-position: top;
 }
 .button {
-  @apply h-[71px] bg-[#cb6f56] px-[54px] flex items-center justify-center rounded-[35.5px] text-[24px] text-white font-oxygen;
+  @apply h-[71px] w-full lg:w-auto bg-[#cb6f56] px-[54px] flex items-center justify-center rounded-[35.5px] text-[24px] text-white font-oxygen;
 }
 .imgshape {
   width: 753.9px;
-  height: 1027.7px;
-  opacity: 0.13;
+  height: 960.7px;
   border-radius: 0 0 377px 377px;
-  background-color: #cb6f56;
+  background-color: #f7e7dc;
   position: relative;
+}
+
+.imgshapeMobile {
+  width: 340.8px;
+  height: 329.1px;
+  opacity: 0.13;
+  border-radius: 0 0 170.4px 170.4px;
+  background-color: #cb6f56;
+}
+
+.rectangleBox {
+  box-shadow: 20px 20px 12px 0 rgba(116, 108, 93, 0.62);
+  background-color: #e0d3c2;
 }
