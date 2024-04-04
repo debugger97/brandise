@@ -1,6 +1,7 @@
 import "./App.css"
 import Archeive from "./components/achieve"
 import MeetFounder from "./components/meetFounder"
+import Stepper from "./components/stepper"
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         </div>  */}
         <Archeive />
         <MeetFounder/>
+        <Stepper />
       </div>
     </>
   )
